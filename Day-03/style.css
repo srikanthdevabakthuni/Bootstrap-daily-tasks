@@ -1,0 +1,112 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Segoe UI',sans-serif;
+background:#f4f7fe;
+}
+
+.sidebar{
+background:#0f172a;
+color:white;
+min-height:100vh;
+padding:30px 20px;
+}
+
+.logo{
+font-weight:700;
+margin-bottom:40px;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar li{
+padding:14px;
+margin-bottom:10px;
+border-radius:10px;
+cursor:pointer;
+transition:.3s;
+}
+
+.sidebar li:hover{
+background:#7c3aed;
+}
+
+.sidebar i{
+margin-right:10px;
+}
+
+.content{
+padding:30px;
+}
+
+.stat-card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+text-align:center;
+height:100%;
+}
+
+.stat-card h3{
+color:#7c3aed;
+font-weight:700;
+}
+
+.custom-card{
+border:none;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.employee-card{
+background:white;
+padding:25px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.employee-card:hover{
+transform:translateY(-8px);
+}
+
+.employee-card img{
+width:100px;
+height:100px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+.btn-primary{
+background:#7c3aed;
+border:none;
+}
+
+.footer{
+margin-top:40px;
+padding:20px;
+text-align:center;
+color:#666;
+}
+
+@media(max-width:768px){
+
+.sidebar{
+min-height:auto;
+}
+
+.content{
+padding:15px;
+}
+
+}
