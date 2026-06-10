@@ -1,0 +1,160 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Segoe UI',sans-serif;
+background:#f6f8ff;
+}
+
+.navbar{
+background:rgba(0,0,0,.7);
+backdrop-filter:blur(10px);
+}
+
+.navbar-brand{
+font-size:28px;
+font-weight:700;
+}
+
+.carousel-img{
+width:100%;
+height:100vh;
+object-fit:cover;
+filter:brightness(40%);
+}
+
+.carousel-caption{
+bottom:50%;
+transform:translateY(50%);
+}
+
+.carousel-caption h1{
+font-size:65px;
+font-weight:800;
+}
+
+.carousel-caption p{
+font-size:22px;
+margin:20px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+font-weight:700;
+margin-bottom:50px;
+}
+
+.feature-card{
+background:white;
+padding:40px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.feature-card:hover{
+transform:translateY(-10px);
+}
+
+.feature-card i{
+font-size:50px;
+margin-bottom:20px;
+color:#4f46e5;
+}
+
+.pricing{
+padding:100px 0;
+}
+
+.price-card{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+text-align:center;
+height:100%;
+}
+
+.popular{
+border:3px solid #4f46e5;
+transform:scale(1.05);
+}
+
+.badge-plan{
+background:#4f46e5;
+color:white;
+padding:8px 15px;
+display:inline-block;
+border-radius:30px;
+margin-bottom:15px;
+}
+
+.price-card ul{
+list-style:none;
+padding:0;
+}
+
+.price-card li{
+margin:15px 0;
+}
+
+.testimonial{
+background:white;
+padding:50px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+text-align:center;
+max-width:700px;
+margin:auto;
+}
+
+.cta-section{
+padding:100px 0;
+background:linear-gradient(135deg,#4f46e5,#7c3aed);
+color:white;
+}
+
+footer{
+background:#111827;
+color:white;
+padding:60px 0;
+}
+
+.footer-links{
+list-style:none;
+padding:0;
+}
+
+.footer-links a{
+color:white;
+text-decoration:none;
+}
+
+@media(max-width:768px){
+
+.carousel-caption h1{
+font-size:36px;
+}
+
+.carousel-caption p{
+font-size:16px;
+}
+
+.section-title{
+font-size:32px;
+}
+
+.popular{
+transform:none;
+}
+
+}
